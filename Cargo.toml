@@ -1,0 +1,14 @@
+[package]
+name = "wooting-rgb-rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+description = "Safe Rust wrapper for the official Wooting RGB SDK"
+repository = "https://github.com/treymouledoux/wooting-rgb-rust"
+license = "MPL-2.0"
+links = "wooting-rgb-sdk"
+
+[build-dependencies]
+cc = "1"
+pkg-config = "0.3"
+bindgen = "0.72"
